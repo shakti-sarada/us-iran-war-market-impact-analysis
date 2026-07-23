@@ -1,0 +1,7 @@
+market_analysis:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../../data/market_analysis.duckdb
+      threads: 4
